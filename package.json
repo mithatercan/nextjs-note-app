@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@theme-ui/presets": "^0.14.2",
     "next": "12.1.4",
+    "next-connect": "^0.12.2",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "theme-ui": "^0.14.2"
   },
   "devDependencies": {
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "eslint-config-next": "12.1.4",
+    "sass": "^1.49.11"
   }
 }

@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  header {
+    padding: 1rem 3rem;
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        li {
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.717);
+            font-size: 1.2rem;
+            &:hover {
+              color: #000;
+              border-bottom: 1px solid black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.home-view {
+  padding: 2rem;
+  color: rgb(83, 83, 83);
+  letter-spacing: 0.4px;
+  line-height: 1.4;
+  font-size: 2rem;
+  hr {
+    margin: 2rem 0;
+  }
+  p {
+    font-weight: 100;
+    a {
+      color: red;
+    }
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bold;
+    margin: 2rem 0;
+  }
+}
+
+.notes-view {
+  padding: 2rem;
+  color: rgb(83, 83, 83);
+  letter-spacing: 0.4px;
+  line-height: 1.4;
+  font-size: 2rem;
+  hr {
+    margin: 2rem 0;
+  }
+  p {
+    font-weight: 100;
+    a {
+      color: red;
+    }
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bold;
+    margin: 2rem 0;
+  }
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.note-link-card {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #000;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.note-view {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.note-container {
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.382);
+  background-color: #fff;
+  color: rgb(83, 83, 83);
+  letter-spacing: 0.4px;
+  line-height: 1.4;
+  font-size: 2rem;
+  hr {
+    margin: 2rem 0;
+  }
+  p {
+    font-weight: 100;
+    a {
+      color: red;
+    }
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bold;
+    margin: 2rem 0;
+  }
+}
